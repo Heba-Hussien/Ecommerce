@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Sign"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:background="@drawable/layout_boarder">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+      />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+    <Button
+        android:id="@+id/montej_sign_in_button"
+        android:background="@drawable/btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/action_sign_montej"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textAllCaps="true"/>
+       <!--Large android:textStyle="bold"-->
+
+    <Button
+        android:id="@+id/customer_sign_in_button"
+        android:background="@drawable/btn_bg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/action_sign_customer"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textAllCaps="true"/>
+        <!--android:textStyle="bold"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/action_skip"
+        android:id="@+id/skip"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+         android:layout_gravity="center_horizontal"
+        android:textColor="@color/color1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

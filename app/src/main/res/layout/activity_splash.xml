@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="0dp"
+        tools:ignore="HardcodedText">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:alpha="0"
+            android:text="MONTEJ"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            tools:alpha="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20sp"
+            android:alpha="0"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
+            android:textSize="20sp"
+            tools:alpha="1" />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgSplashLogo"
+        android:layout_width="220sp"
+        android:layout_height="120sp"
+        android:background="@drawable/splash_logo_bg"
+        android:src="@drawable/logo"
+        android:layout_gravity="center|center"
+        android:visibility="visible" />
+
+</FrameLayout><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@color/colorPrimaryDark"--><!--tools:context=".MainActivity">-->
+
+    <!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_centerHorizontal="true"--><!--android:layout_marginStart="20sp"--><!--android:layout_marginTop="50sp"--><!--android:layout_marginEnd="20sp"--><!--android:padding="10sp"--><!--android:textColor="#fff"--><!--android:visibility="gone"--><!--android:textAllCaps="true"--><!--android:gravity="center"--><!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"--><!--android:text="Login"--><!--android:background="@drawable/btn_bg" />-->
+
+
+    <!--</RelativeLayout>-->

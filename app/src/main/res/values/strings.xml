@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Montej</string>
+    <string name="action_sign_customer">Sign as a customer</string>
+    <string name="action_sign_montej">Sign as a seller</string>
+    <string name="action_skip"> <u>Skip</u></string>
+    <string name="action_sign_in">Sign Up</string>
+    <string name="action_login">Login</string>
+    <string name="action_create_account"> <u>Create an account</u></string>
+    <string name="action_add_product">Add product</string>
+    <string name="action_order_list">Order list</string>
+
+    <string name="hint_family_name">Family name</string>
+    <string name="hint_store_name">Store name </string>
+    <string name="hint_Email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_store_type">Store type</string>
+    <string name="hint_customer_name">Name</string>
+    <string name="hint_user_name">User name </string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone_number">Phone</string>
+    <string name="hint_product_name">Product name</string>
+    <string name="hint_product_code">Product code</string>
+    <string name="hint_product_price">Price</string>
+    <string name="hint_description">Description</string>
+
+    <string name="hint_product_name_">Product name:</string>
+    <string name="hint_product_code_">Product code:</string>
+    <string name="hint_product_price_">product price:</string>
+    <string name="hint_description_">description:</string>
+
+
+    <string-array name="Stores">
+        <item>Cooking</item>
+        <item>‎Sweets</item>
+        <item>Hand made</item>
+        <item>wooden works</item>
+        <item>Decoration</item>
+        <item>party preparation</item>
+    </string-array>
+    <string name="title_activity_customer_home">CustomerHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MONTEJ</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

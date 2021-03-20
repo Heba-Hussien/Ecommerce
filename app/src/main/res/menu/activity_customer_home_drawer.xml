@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Cooking"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Cooking" />
+        <item
+            android:id="@+id/Sweets"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Sweets" />
+        <item
+            android:id="@+id/Hand_made"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Hand made" />
+        <item
+            android:id="@+id/Wooden_works"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Wooden works" />
+        <item
+            android:id="@+id/Decoration"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Decoration" />
+        <item
+            android:id="@+id/party_preparation"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="party preparation" />
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/logout"
+            android:iconTint="#000"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Tender">
+        <menu>
+            <item
+                android:id="@+id/New_order"
+                android:icon="@drawable/ic_menu_share"
+                android:title="My orders" />
+            <item
+                android:id="@+id/Offers"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Get offers" />
+        </menu>
+    </item>
+
+
+
+</menu>

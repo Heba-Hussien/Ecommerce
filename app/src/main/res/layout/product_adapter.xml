@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/view_margin"
+    android:orientation="horizontal"
+    android:background="#e6e6e6"
+    >
+
+    <ImageView
+        android:id="@+id/product_imageView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:paddingTop="5dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_product_name_"
+                android:id="@+id/product_name_text"
+                android:textColor="@color/color1"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_product_code_"
+                android:textColor="@color/color1"
+                android:id="@+id/product_code_text"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_product_price_"
+                android:textColor="@color/color1"
+                android:id="@+id/product_price_text"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_description_"
+            android:textColor="@color/color1"
+            android:id="@+id/product_description_text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="right">
+            <Button
+                android:id="@+id/product_delete"
+                android:background="@drawable/delete_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:backgroundTint="@color/color1"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/product_edit"
+                android:background="@drawable/pencil_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:backgroundTint="@color/color1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

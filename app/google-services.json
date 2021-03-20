@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "35915892651",
+    "firebase_url": "https://montej-64bb2.firebaseio.com",
+    "project_id": "montej-64bb2",
+    "storage_bucket": "montej-64bb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35915892651:android:14367f5714fae9f9",
+        "android_client_info": {
+          "package_name": "com.example.montej"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35915892651-e4gogttoqd2oq9bd7dutu269ogh0160k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.montej",
+            "certificate_hash": "dfc5e2cef7fa19597fd2dfe7e7748e3c9a3e860d"
+          }
+        },
+        {
+          "client_id": "35915892651-poo17lb8m34mvn1vnln2i8ndd4mb30sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSCmf5WU6lYXISXfKSvqqKDueS9pzhto8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35915892651-poo17lb8m34mvn1vnln2i8ndd4mb30sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
